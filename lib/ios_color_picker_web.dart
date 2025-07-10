@@ -4,7 +4,8 @@
 // ignore: avoid_web_libraries_in_flutter
 
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'ios_color_picker_platform_interface.dart';
+
+import 'native_picker/ios_color_picker_platform_interface.dart';
 
 /// A web implementation of the IosColorPickerPlatform of the IosColorPicker plugin.
 class IosColorPickerWeb extends IosColorPickerPlatform {
